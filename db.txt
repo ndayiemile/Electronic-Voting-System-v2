@@ -1,0 +1,27 @@
+--Database:`evs`
+--table structure for `admins`
+--
+CREATE TABLE `admins`(
+`id` INT(10) AUTO_INCREMENT PRIMARY KEY, 
+`org_comm_name` VARCHAR(100) NOT NULL,
+`email` VARCHAR(100) NOT NULL, 
+`admin_password` VARCHAR(1000) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--table structure for `account`
+/*CREATE TABLE $n (
+    id INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+     cd_name VARCHAR(100) NOT NULL,
+     cd_age INT(2) NOT NULL,
+     cd_position VARCHAR(100) NOT NULL,
+     cd_id VARCHAR(100) NOT NULL,
+     cd_gender VARCHAR(100) NOT NULL,
+     cd_email VARCHAR(100) NOT NULL,
+     cd_comment VARCHAR(1000) NOT NULL,
+     n_candidates INT(3) NOT NULL,
+     votes INT(100) NOT NULL,
+     voters_id VARCHAR(100) NOT NULL,
+     n_voters INT(10) NOT NULL,
+     session_state VARCHAR(10) NOT NULL,
+     vote_checker VARCHAR(10) NOT NULL
+     );*/;

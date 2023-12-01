@@ -1,0 +1,217 @@
+*{
+    box-sizing:border-box;
+}
+
+.left_div{
+    width:20%;
+    height:100%;
+    margin-top:10px;
+    overflow-y:auto;
+    float:left;
+}
+.left_div h3{
+    text-align:center;
+}
+.start_stop,.start_stop2{
+    background-color:olive;
+    width:100%;
+    bottom:0px;
+    color:white;
+    padding:20px;
+    font-size:20px;
+    border:none;
+    transition: background-color 5s;
+
+}
+.start_stop2:hover{
+    background-color:rgb(201, 201, 22);
+    cursor:pointer;
+}
+.start_stop:hover{
+    background-color:pink;
+    cursor:pointer;
+}
+.start_stop2{
+    background-color:pink;
+}
+.left_div table{
+    border-collapse:none;
+    width:95%;
+    margin:0 auto;
+    border-style:solid;
+    border-width:0px 0px 3px 0px;
+    border-color:orange;
+}
+.left_div table th{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:orange;
+}
+.left_div table th,td{
+    text-align:left;
+    padding:10px;
+}
+.left_div table tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+
+
+
+
+
+
+.right_div{
+    background-color:wheat;
+    width:80%;
+    height:100%;
+    margin-top:10px;
+    float:left;
+    overflow:auto;
+    padding-left:5px;
+    padding-right:5px;
+}
+.right_div h4{
+    text-align:center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.mid_div{
+    background-color:white;
+    width:69%;
+    margin-right:5px;
+    height:570px;
+    margin-bottom:5px;
+    float:left;
+    overflow-y:auto;
+}
+.back_div{
+    background-color:#f2f2f2;
+    width:30%;
+    height:570px;
+    float:left;
+    margin-bottom:5px;
+}
+.mid_div,.back_div h3{
+    text-align:center;
+    color:orange;
+}
+.button button{
+    width:100%;
+    padding:10px;
+    border:none;
+    margin:1px 1px 0px 1px;
+    background-color:olive;
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.button #subbutton,#sub_button,#s_button,#sbutton{
+    display:none;
+    width:48%;
+    padding:10px;
+    border:none;
+    margin:1px 0px 1px 3px;
+    background-color:rgb(201, 201, 22);
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.mid_div table{
+    border-collapse:none;
+    width:95%;
+    margin:0 auto;
+    margin-bottom:10px;
+    border-style:solid;
+    border-width:0px 0px 3px 0px;
+    border-color:rgb(201, 201, 22);
+}
+#votersnotification{
+    color:orangered;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:silver;
+    margin:150px 20px 0px 20px;
+}
+.mid_div table caption{
+    background-color:rgb(201, 201, 22);
+    padding:5px;
+    color:white;
+    margin-left:2px;
+    margin-right:2px;
+}
+.mid_div table input{
+    border:none;
+    outline:none;
+    padding:0px;
+    width:100%;
+}
+#topcapton{
+    caption-side:top;
+}
+#bottomcaption{
+    caption-side:bottom;
+    background-color:orange;
+
+}
+.captionbutton:hover{
+    color:orangered;
+    cursor:pointer;
+}
+.mid_div table th{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:orange;
+}
+.mid_div table th,td{
+    text-align:left;
+    padding:10px;
+}
+.mid_div table tr:nth-child(even){background-color: #f2f2f2;}
+#manual_ids,#edit_ids{
+    display:none;
+}
+#edit_ids input,#manual_ids input{
+    background-color: inherit;
+    font-size:17px;
+}
+.actions{
+    padding-top:20px;
+    margin-top:10px;
+    background-color:rgb(248, 235, 205);
+    float:left;
+    width:100%;
+}
+.actions table{
+    border-collapse:none;
+    width:95%;
+    margin:0 auto;
+    margin-bottom:10px;
+    border-style:solid;
+    border-width:0px 0px 3px 0px;
+    border-color:rgb(201, 201, 22);
+
+}
+.actions table tr:nth-child(even){background-color: wheat;}
+.actions table th,td{
+    text-align:left;
+    padding:10px;
+}
+.actions table th{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:orange;
+}
+.actions table caption{
+    background-color:rgb(201, 201, 22);
+    padding:5px;
+    color:white;
+    margin-left:2px;
+    margin-right:2px;
+}
+.prog{
+    padding:30px;
+    margin:0 10px 0px 10px;
+    width:90%;
+    color:orange;
+}

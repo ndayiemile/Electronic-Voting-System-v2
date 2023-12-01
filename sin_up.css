@@ -1,0 +1,60 @@
+body{
+    background-image: url(../photos/wallpaperflare.com_wallpaper.jpg);
+}
+.sinup_form{
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top:80px;
+    margin-right: auto;
+    width: fit-content;
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 50px 10px 50px;
+  
+}
+.sinup_form h1{
+    color:olive;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input_group{
+    width: 100%;
+}
+.label{
+    color:grey;
+    display: block;
+    font-size:23px;
+
+}
+.input{
+width: 80%;
+margin-bottom: 10px;
+font-size: 15px;
+color:olive;
+padding: 2px 2px 2px 10px;
+outline:none;
+}
+.input_group button{
+    margin-top: 20px;
+    background-color: olive;
+    color:white;
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+.input_group button:hover{
+    background-color: rgb(61,61,61);
+    color:olive;
+}
+.lastlink{
+text-decoration: none;
+}
+.lastp{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 136, 0);
+    font-size:15px;
+}
+.lastp:hover{
+    color:rgb(170, 37, 4);
+}
